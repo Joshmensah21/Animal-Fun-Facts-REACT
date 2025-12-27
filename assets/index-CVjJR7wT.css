@@ -1,0 +1,1 @@
+body{background-color:#fff;overflow-x:hidden}.parentContainer{display:flex;align-items:center;flex-direction:column;height:100vh;width:100%}.background{position:absolute;margin-top:80px;width:88%;z-index:-1}.title-n-fact{display:flex;flex-direction:column;align-items:center}.animals{display:flex;width:72vw;margin-top:320px;gap:168px}.sea-creature{height:192px;width:192px}
