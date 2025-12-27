@@ -1,11 +1,13 @@
 import { animals } from './assets/animals'
 import { useState } from 'react'
-
+import ocean from './assets/images/ocean.jpg'
 export default function App() {
 
 const title = "";
 const showBackground = true;
-const background = <img className="background" alt="ocean" src="/images/ocean.jpg"/>;
+const background = (
+  <img className="background" alt="ocean" src={ocean}/>
+);
 const images = [];
 const [fact, setFact] = useState("");
 const animalFacts = (
